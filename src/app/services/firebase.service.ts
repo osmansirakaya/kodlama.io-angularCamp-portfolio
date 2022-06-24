@@ -17,6 +17,9 @@ export class FirebaseService {
       GetUserData.email=data.email;
       GetUserData.firstName=data.firstName;
       GetUserData.lastName=data.lastName;
+      GetUserData.hakkimda=data.hakkimda;
+      GetUserData.title=data.title;
+
 
     })
   }

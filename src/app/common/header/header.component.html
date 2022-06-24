@@ -1,0 +1,38 @@
+<header id="header">
+    <div class="d-flex flex-column">
+        <div class="profile">
+            <img src="https://yt3.ggpht.com/ytc/AKedOLR8l-SGrBwv5sAcAzu7HZSm-Alic-NiKzPi4aJ3Zf4=s900-c-k-c0x00ffffff-no-rj" alt="" class="img-fluid rounded-circle">
+            <h1 class="text-light"><a href="">{{users.firstName}}</a><a href=""> {{users.lastName}}</a></h1>
+            <div class="social-links mt-3 text-center">
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="github"><i class="bx bxl-github"></i></a>
+                <a href="#" class="medium"><i class="bx bxl-medium"></i></a>
+                <a href="#" class="google"><i class="bx bxl-google"></i></a>
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </div>
+        <nav id="navbar" class="nav-menu navbar">
+            <ul>
+                <li><a routerLink="" class="nav-link scrollto active"><i class="bx bx-home"></i><span>&nbsp;Ana Sayfa</span></a>
+                </li>
+                <li><a routerLink="/about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a></li>
+                <li><a routerLink="/resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>  <span>Özgeçmiş</span></a>
+                </li>
+                <li><a  routerLink="/portfolio"  class="nav-link scrollto"><i class="bx bx-book-content"></i> 
+                        <span>Portföy</span></a></li>
+                <li><a routerLink="/contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>  <span>İletişim</span></a>
+                </li>
+            </ul>
+        </nav><!-- .nav-menu -->
+    </div>
+</header><!-- End Header -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span><a href="">{{users.firstName}}</a><a href=""> {{users.lastName}}</a></span></strong>
+      </div>  
+    </div>
+  </footer><!-- End  Footer -->
+
