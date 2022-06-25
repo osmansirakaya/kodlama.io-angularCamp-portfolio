@@ -9,8 +9,8 @@ import { GetUserData } from 'src/app/models/getUserData';
 export class AboutComponent implements OnInit {
   users=GetUserData;
   constructor() { }
-
   ngOnInit(): void {
+
   }
 
 }

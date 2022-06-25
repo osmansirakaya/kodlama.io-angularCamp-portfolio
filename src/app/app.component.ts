@@ -1,5 +1,6 @@
 import { FirebaseService } from './services/firebase.service';
 import { Component, OnInit } from '@angular/core';
+import { GetUserData } from './models/getUserData';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor(private firebaseService:FirebaseService) { }
+
+  constructor(public firebaseService:FirebaseService) {
+   
+   }
 
   ngOnInit(): void {
     this.firebaseService.getUser('osman');

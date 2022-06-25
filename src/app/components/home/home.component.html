@@ -1,7 +1,7 @@
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+    <div *ngIf="users" class="hero-container" data-aos="fade-in">
       <h1>{{users.firstName+" "+users.lastName}}</h1>
-      <p> asdadaadasdasd{{users.title}}<span class="typed bold"></span></p>
+      <p>{{users.title}}<span class="typed bold"></span></p>
     </div>
   </section><!-- End Hero -->
 

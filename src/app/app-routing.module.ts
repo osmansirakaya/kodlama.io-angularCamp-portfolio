@@ -1,3 +1,4 @@
+import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { HomeComponent } from './components/home/home.component';
@@ -13,6 +14,8 @@ const routes: Routes = [
   {path:"resume", component:ResumeComponent},
   {path:"portfolio", component:PortfolioComponent},
   {path:"contact", component:ContactComponent},
+  {path:"skills", component:SkillsComponent},
+
 
 
 
