@@ -4,6 +4,22 @@ export const  GetUserData: User = {
     email: '',
     firstName: '',
     lastName: '',
-    hakkimda:'',
-    title:''
+    aboutMe:'',
+    title:'',
+    date:'',
+    address:'',
+    age:'',
+    drivingLicense:'',
+    degree:'',
+    linkedin:'',
+    twitter:'',
+    medium:'',
+    github:'',
+    phone:'',
+    pp:'',
+    pp2:''
+
+
+
+
 }

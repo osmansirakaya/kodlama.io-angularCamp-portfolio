@@ -17,8 +17,21 @@ export class FirebaseService {
       GetUserData.email=data.email;
       GetUserData.firstName=data.firstName;
       GetUserData.lastName=data.lastName;
-      GetUserData.hakkimda=data.hakkimda;
+      GetUserData.aboutMe=data.aboutMe;
       GetUserData.title=data.title;
+      GetUserData.date=data.date;
+      GetUserData.address=data.address;
+      GetUserData.age=data.age;
+      GetUserData.drivingLicense=data.drivingLicense;
+      GetUserData.degree=data.degree;
+      GetUserData.linkedin=data.linkedin;
+      GetUserData.twitter=data.twitter;
+      GetUserData.medium=data.medium;
+      GetUserData.github=data.github;
+      GetUserData.phone=data.phone;
+      GetUserData.pp=data.pp;
+      GetUserData.pp2=data.pp2;
+
     })
   }
 }
